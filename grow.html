@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Brokerage Calculator - Calculate and Compare Brokerage Charges Online</title>
+    <link rel="icon" href="assets2/favicon32x32-groww.ico">
+    <link rel="stylesheet" href="grow.css">
+    
+</head>
+<body><link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Onest:wght@100..900&display=swap" rel="stylesheet">
+    <header class="header">
+        <div class="logo">
+            <img src="assets2/groww-logo-light.svg" alt="Groww Logo">
+            
+        </div>
+        <div class="search-bar">
+          <input type="text" placeholder="What are you looking for today?" class="custom-placeholder">
+      </div>
+      
+        <button class="login-register">Login/Register</button>
+    </header>
+
+   
+      <nav class="breadcrumb">
+          <a href="/home">Home</a> &gt;
+          <a href="/calculators">Calculators</a> &gt;
+          <span>Brokerage Calculator</span>
+          <span class="share"><img src="assets2/share.svg">SHARE</span>
+      </nav>
+  
+
+  <span class="line">Brokerage Calculator</span>
+
+  <div class="container">
+    <div class="left-section">
+        <!-- Stock Input Form -->
+        <div class="stock-input">
+            <div class="head">
+            <button class="active">Equity - delivery</button>
+            <button class="new1">Equity - intraday</button>
+            <button class="new1">F&O</button>
+        </div>
+
+            <div class="input-fields">
+                <label  class="class" for="qty">Qty NSE</label>
+                <input  class="aligment" type="number" id="qty" value="50">
+                <label class="class" for="buyPrice">Buy price per share</label>
+                <input  class="aligment" type="number" id="buyPrice" value="1000">
+                <label class="class" for="sellPrice">Sell price per share</label>
+                <input class="aligment" type="number" id="sellPrice" value="1500">
+            </div>
+        </div>
+
+        <!-- Calculation Summary -->
+        <div class="calculation-summary">
+            <div class="charge-details">
+                <p class="black">Turnover</p>
+                <p class="black11" >₹1,25,000.00</p>
+            </div>
+            <div class="charge-details">
+                <p class="black">P&L</p>
+                <p class="black11">₹25,000.00</p>
+            </div>
+            <div class="charge-details">
+                <p class="black">Charges</p>
+                <p class="black11">₹184.23</p>
+            </div>
+            <div class="charge-details">
+                <p>Groww charges</p>
+                <p class="black1" >₹40.00</p>
+            </div>
+            <div class="charge-details">
+                <p>Non-Groww charges</p>
+                <p class="black1">₹144.23</p>
+            </div>
+            <div class="charge-details">
+                <p>Securities Transaction Tax, STT</p>
+                <p class="black1">₹125.00</p>
+            </div>
+            <div class="charge-details">
+                <p>Exchange charges</p>
+                <p class="black1">₹3.71</p>
+            </div>
+            <div class="charge-details">
+                <p>SEBI Turnover Fees</p>
+                <p class="black1">₹0.13</p>
+            </div>
+            <div class="charge-details">
+                <p>GST</p>
+                <p class="black1">₹7.89</p>
+            </div>
+            <div class="summary-row">
+                <p>Stamp Duty</p>
+                <p class="black1">₹7.50</p>
+            </div>
+            <div class="summary-row">
+                <p class="black">Net P&L</p>
+                <p class="black11">₹24,815.77</p>
+            </div>
+            <p class="disclaimer">* A DP charge of ₹18.25 + GST will be charged for each scrip once per trading day per company.</p>
+            <p class="disclaimer">** The above charges are tentative. Please refer to the contract note for exact charges.</p>
+        </div>
+    </div>
+
+    <!-- Sidebar Section -->
+<div class="three">
+    
+    <div class="right-section">
+        <div class="explore">
+            <img src="assets2/flower.webp">
+            <h3>Invest the way you want</h3>
+            <p>Join millions of Indians who trust and love Groww</p>
+            <button>Explore Products</button>
+        </div>
+    </div>  
+    
+    <div class="calculator-sections">
+        <table class="calculator-table">
+            <thead>
+                <tr>
+                    <th>Popular Calculators</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>SIP Calculator</td></tr>
+                <tr><td>Lumpsum Calculator</td></tr>
+                <tr><td>SWP Calculator</td></tr>
+                <tr><td>Mutual Fund Returns Calculator</td></tr>
+                <tr><td>Sukanya Samriddhi Yojana Calculator</td></tr>
+                <tr><td>Income Tax Calculator</td></tr>
+                <tr><td>PPF Calculator</td></tr>
+                <tr><td>EPF Calculator</td></tr>
+                <tr><td>FD Calculator</td></tr>
+                <tr><td>RD Calculator</td></tr>
+                <tr><td>EMI Calculator</td></tr>
+                <tr><td>GST Calculator</td></tr>
+            </tbody>
+        </table>
+    
+        <table class="calculator-table">
+            <thead>
+                <tr>
+                    <th>More Calculators</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>CAGR Calculator</td></tr>
+                <tr><td>Gratuity Calculator</td></tr>
+                <tr><td>HRA Calculator</td></tr>
+                <tr><td>NPS Calculator</td></tr>
+                <tr><td>NSC Calculator</td></tr>
+                <tr><td>Simple Interest Calculator</td></tr>
+                <tr><td>Compound Interest Calculator</td></tr>
+                <tr><td>APY Calculator</td></tr>
+                <tr><td>Retirement Calculator</td></tr>
+            </tbody>
+        </table>
+    </div>
+    
+</div>
+
+        
+    </div>
+
+
+<div class="container11">
+        
+  <!-- Section 1: What is a Brokerage Calculator -->
+  <div class="content">
+      
+      <p>Trading in securities involves several charges besides the purchasing price of such securities. One of the most important and predominant of these charges is the brokerage fee that a trader needs to pay to the concerned broker. This brokerage fee is the remuneration a broker receives for facilitating trade.</p>
+      <p>Typically, it is a percentage of the total trade value that is charged as brokerage. Brokers levy this fee over and above the original trade value and deduct it from a trader’s portfolio.</p>
+      <p>Such monetary outgo could be substantial depending on the scale of the trade. Therefore, several investors use a brokerage calculator to expedite the cost analysis.</p>
+      <h2>What is a Brokerage Calculator?</h2>
+      <p>It is an online tool that brokers and other investment platforms provide to facilitate brokerage calculation in advance of carrying out a trade. It is not merely limited to calculating brokerage. It also calculates stamp duty charges, transaction fees, SEBI turnover fee, GST, and Securities Transaction Tax (STT).</p>
+      <p> Therefore,A brokerage charges calculator simplifies the process of calculating the cost of trade significantly. An individual would need to input the following in an online brokerage calculator to compute their cost of trading:</p>
+      <ul>
+          <li>Buy/purchase price of a stock.</li>
+          <li>Sale price of a stock.</li>
+          <li>Number of shares to be bought/sold.</li>
+          <li>State (for stamp duty).</li>
+          <li>Size of a lot (for Options trading).</li>
+      </ul>
+      <p>Such a calculator provides accurate information about such costs instantaneously, thus facilitating speedy and timely trading. Therefore, it is paramount for traders who rely on timing extensively to carry out their trades, like intraday traders. They can use an intraday brokerage calculator to ease the process of cost analysis before buying and selling securities.</p>
+    </div>
+
+  <!-- Section 2: How to Calculate Brokerage -->
+  <div class="content">
+      <h2>How to Calculate Brokerage?</h2>
+      <p>As mentioned earlier, brokerage charges are the fees that brokers collect from traders to facilitate trade. Therefore, investors need to pay brokerage fees both when selling securities and when buying them. However, specific brokers might consider excluding one event from any charges.</p>
+      <p>Nevertheless, most brokers levy a certain percentage of the trade value as their brokerage fees. Depending on the scale of trade value, such percentages might vary. Regardless, the formula for calculation of brokerage in share market is as follows:</p>
+      <p>Brokerage = Number of shares sold/bought x Price of one unit of stock x brokerage percentage</p>
+      <p>Share brokerage calculators employ this formula for both intraday trading and delivery trading brokerage calculations.</p>
+
+      
+      <p> Example:Ria decides to purchase 20 shares of Hindustan Unilever Limited at Rs.2000 each, and within 10 days, she sells those off at Rs.2100. She does so via Broker Z who charges 0.5% as brokerage fees.</p>
+      <p>In this example, Ria’s total trade value stands to be:</p>
+      <p>Rs. [(20 x 2000) + (20 x 2100)]</p>
+      <p>Or, Rs. (40,000 + 42,000) = Rs.82,000</p>
+      <p>Since Broker Z charges 0.5% as brokerage, the total fee she pays to the broker is:</p>
+      <p>Rs. (82,000 x 0.5%) = Rs.410</p>
+      <p>Therefore, Ria would pay Rs.410 as brokerage for carrying out transactions worth Rs.82,000. However, if she carried out a transaction on which brokerage charged was too low, then a broker would charge the minimum amount applicable, which is usually Rs.20 to Rs.30.</p>
+      <p>Nevertheless, to simplify this tedious process of calculating brokerage, individuals can use a stock brokerage calculator.</p>
+  </div>
+
+  <!-- Section 3: Factors Affecting Brokerage Calculation -->
+  <div class="content">
+      <h2>What are the Factors on which Brokerage Calculation Depends?</h2>
+      <p class="error1">The factors on which brokerage calculations depend are-</p>
+      
+          <p class="error1">1.Buy / sale price </p>
+          <p class="error1">One of the key determinants of brokerage commission is the buy or sale price of a single unit of security. It is directly proportional to the brokerage.</p>
+          <p class="error1"> 2.Volume of transaction </p>
+          <p class="error1">Another factor on which brokerage calculation, whether manual or using a brokerage calculator, depends is the volume of transaction. The larger the volume, the higher the brokerage amount. However, specific brokers reduce the percentage commission when investors trade in large quantities.</p>
+          <p class="error1">3.Type of broker </p>
+          <p class="error1">There are primarily two types of brokers in India-</p>
+          <ul>
+            <li>Full-service brokers</li>
+            <li>Discount brokers</li>
+        </ul>
+        <p class="error1">Full-service brokers provide numerous services associated with trading in securities such as researching, managing sales, imparting advice, etc. They typically charge on the expensive side. </p>
+        <p class="error1">Discount brokers simply provide a platform for trading and charge a considerably small brokerage for that. Such brokers usually levy a flat rate that is irrespective of the scale of trade value.</p>
+        
+        </div>
+        <section class="content">
+          <h2>What are the Benefits of a Brokerage Calculator?</h2>
+           <p>The benefits of online tools like Groww brokerage calculator are –</p>
+           <ul>
+            <li>Investors can use a brokerage calculator to compare between brokers levying competitive brokerage commissions.
+            </li>
+            <li>Brokerage calculators provide accurate results instantaneously.</li>
+            <li>It accounts for all the costs of trading.</li>
+            <li>It is free of charge.</li>
+        </ul>
+        <p>Therefore, traders can utilise a brokerage calculator to greatly benefit their trading process and save time anco analysis significantly.</p>
+        </section>
+</div>
+
+
+
+
+ <!-- Footer Section -->
+ <footer>
+    <div class="footer-container">
+        <div class="footer-section groww">
+            <img src="assets2/groww-logo-light.svg">
+            <address class="address">
+                Vaishnavi Tech Park, 3rd & 4th Floor<br>
+                Sarjapur Main Road, Bellandur<br>
+                Bengaluru - 560103<br>
+                <u>Contact Us</u>
+            </address>
+            <div class="social-media">
+                <a href="#"><img src="assets2/fb.svg" alt="Facebook"></a>
+                <a href="#"><img src="assets2/youtube.svg" alt="YouTube"></a>
+                <a href="#"><img src="assets2/twitter.svg" alt="Twitter"></a>
+                <a href="#"><img src="assets2/instagram.svg" alt="Instagram"></a>
+                <a href="#"><img src="assets2/linkedin.svg" alt="LinkedIn"></a>
+                <a href="#"><img src="assets2/telegram.svg" alt="Telegram"></a>
+            </div>
+        </div>
+        <div class="footer-section">
+            <h3>PRODUCTS</h3>
+            <ul>
+                <li>Stocks</li>
+                <li>Futures & Options</li>
+                <li>IPO</li>
+                <li>Mutual Funds</li>
+                <li>NFO</li>
+                <li>Credit</li>
+                <li>Bill Payments</li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>GROWW</h3>
+            <ul>
+                <li>About Us</li>
+                <li>Pricing</li>
+                <li>Blog</li>
+                <li>Media & Press</li>
+                <li>Careers</li>
+                <li>Help and Support</li>
+                <li>Trust and Safety</li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>QUICK LINK</h3>
+            <ul>
+                <li>AMC Mutual Funds</li>
+                <li>Calculators</li>
+                <li>Glossary</li>
+                <li>Open Demat Account</li>
+                <li>Groww Digest</li>
+                <li>Sitemap</li>
+                <li>Web Stories</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer class="footer-bottom-section">
+        <div class="footer-bottom-content">
+            <p class="heart">© 2016-2024 Groww. All rights reserved, Built with ❤️ in India</p>
+            <div class="app-links">
+                <a><img src="assets2/app-store-logo.2fe36fc4 (3).webp" ></a>
+                <a  ><img src="assets2/get-app.webp" ></a>
+            </div>
+        </div>
+        <div class="footer-popular-links">
+            <h4>MOST POPULAR ON GROWW</h4>
+            <p class="error">STOCK MARKET INDICES: <span class="green"> S&P BSE SENSEX | S&P BSE 100 | NIFTY 100 | NIFTY 50 | NIFTY MIDCAP 100 | NIFTY BANK | NIFTY NEXT 50</span></p>
+            <p class="error"> POPULAR MUTUAL FUNDS:<span class="green" > GrowwMF | SBI | HDFC | UTI | Axis | Nippon India | ICICI Prudential | Tata | Kotak | DSP |
+                Canara Robeco | Sundaram | Mirae Asset | IDFC | Franklin Templeton | PPFAS | Motilal Oswal |
+                Invesco | Edelweiss | Aditya Birla Sun Life | LIC | HSBC | Navi | Quantum | Union | ITI | 
+                Mahindra Manulife | 360 ONE | BOI | Taurus | JM Financial | PGIM | Shriram | Baroda BNP | Aribas |
+                Quant | Whiteoak Capital | Trust | Samco | NJ</span></p>
+            <p class="error">MUTUAL FUNDS COMPANIES:<span class="green">Margin Calculator | SIP Calculator | SWP Calculator | Sukanya Samriddhi Yojana Calculator | 
+                Mutual Fund Returns Calculator | FD Calculator | RD Calculator | EMI Calculator | PPF Calculator | 
+                EPF Calculator | NPS Calculator | Gratuity Calculator</span></p>
+            <p class="error">TOOLS: <span class="green">NSE | BSE | Terms and Conditions | Policies and Procedures | Regulatory & Other Info | 
+                Privacy Policy | Disclosure | Bug Bounty | Investor Charter and Grievance | 
+                Redressal of Investor Grievances</span> </p>
+            <p class="other">OTHERS: NSE |BSE |Terms and Conditions |Policies and Procedures| Regulatory & Other Info| Privacy Policy |Disclosure | Bug Bounty |Download Forms|Investor Charter and| Grievance Redressal of Investor Grievances</p>
+        </div>
+        <div class="footer-version">
+            <p class="version">VERSION - 5.4.4</p>
+        </div>
+    </footer>
+    
+    
+    
+
+
+</body>
+</html>
